@@ -3,3 +3,6 @@
 .DS_Store
 __pycache__/
 .ipynb_checkpoints/
+
+#contains raw binary files
+task_2/data/  

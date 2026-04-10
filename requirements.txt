@@ -1,3 +1,7 @@
+# task 1
 python-dotenv
 json5
 psycopg2-binary
+
+# task 3
+fastapi[standard]

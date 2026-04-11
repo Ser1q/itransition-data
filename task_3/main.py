@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from fastapi.responses import PlainTextResponse
 
 app = FastAPI()
 
@@ -23,7 +24,7 @@ def calculate_lcm(x:int | None = None, y:int | None = None):
     if (y % x == 0) or (x % y == 0):
         return f"{x}" if x > y else f"{y}"
     
-    return f"{(x*y)//gcd(x,y)}"
+    return PlainTextResponse(f"{(x*y)//gcd(x,y)}")
             
     
     

@@ -7,6 +7,3 @@ __pycache__/
 
 # contains raw binary files
 task_2/data/
-
-# data files
-task_4/data/

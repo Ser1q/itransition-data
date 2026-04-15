@@ -10,3 +10,5 @@ fastapi[standard]
 pyyaml
 pyarrow
 fastparquet
+streamlit
+plotly

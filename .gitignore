@@ -5,5 +5,8 @@ __pycache__/
 .ipynb_checkpoints/
 *.code-workspace
 
-#contains raw binary files
-task_2/data/  
+# contains raw binary files
+task_2/data/
+
+# data files
+task_4/data/

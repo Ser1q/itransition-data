@@ -5,3 +5,8 @@ psycopg2-binary
 
 # task 3
 fastapi[standard]
+
+# task 4
+pyyaml
+pyarrow
+fastparquet

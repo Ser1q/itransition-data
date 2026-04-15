@@ -93,7 +93,6 @@ def parse_author_set(author_value: str) -> tuple[str, ...]:
     if pd.isna(author_value):
         return tuple()
 
-    # In cleaned data, multiple authors are comma-separated.
     authors = [part.strip() for part in str(author_value).split(',') if part.strip()]
     return tuple(sorted(authors))
 

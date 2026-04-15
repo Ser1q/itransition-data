@@ -72,7 +72,7 @@ orders_df['unit_price'] = orders_df['unit_price'].astype(float)
 
 orders_df.info()
 
-orders_df.loc[euro_indexes, 'unit_price'] = orders_df.loc[mask, 'unit_price'] * 1.2
+orders_df.loc[euro_indexes, 'unit_price'] = orders_df.loc[euro_indexes, 'unit_price'] * 1.2
 
 orders_df['unit_price'] = orders_df['unit_price'].round(2)
 
